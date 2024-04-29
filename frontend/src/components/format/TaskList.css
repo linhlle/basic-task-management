@@ -1,0 +1,23 @@
+.task-list-container {
+    margin: 20px;
+  }
+  
+  .task-list-controls {
+    margin-bottom: 10px;
+  }
+  
+  .task-list-controls select {
+    margin-right: 10px;
+  }
+  
+  .task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  

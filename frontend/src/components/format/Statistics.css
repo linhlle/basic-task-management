@@ -1,0 +1,49 @@
+
+.statistics-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+  }
+.statistics-chart {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.9); 
+
+  }
+  
+  .statistics-chart h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+.header {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.timestamp {
+    text-align: center;
+    margin-bottom:100px;
+
+}
+
+.back {
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    background: #000000;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 14px 24px 16px;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 1;
+    transition: transform 200ms, background 200ms;
+}
+
+.statistics-chart .chartjs-render-monitor .chart-legend {
+    display: block !important;
+  }

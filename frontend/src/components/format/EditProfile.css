@@ -1,0 +1,55 @@
+.edit-profile-container {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .edit-profile-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Adjust color based on message type */
+  .edit-profile-container p {
+    margin-bottom: 10px;
+    color: red; /* Default to red for error messages */
+  }
+  
+  /* Change color to green for success messages */
+  .edit-profile-container p.success {
+    color: green;
+  }
+  
+  .edit-profile-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .edit-profile-container input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .edit-profile-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #000000;
+    color: #FFFFFF;
+    transition: transform 200ms, background 200ms;
+    outline: none;
+  }
+  
+  .edit-profile-container button:hover {
+    transform: translateY(-2px);
+  }
+  
+  .back {
+    margin-top:20px;
+  }

@@ -1,0 +1,44 @@
+.task-form-container {
+  margin: 20px;
+}
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.task-form input,
+.task-form textarea,
+.task-form select {
+  margin-bottom: 10px;
+}
+
+.task-form button {
+  padding: 10px 20px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #000000;
+    color: #FFFFFF;
+    transition: transform 200ms, background 200ms;
+    outline: none;
+}
+
+.task-form button:hover {
+  transform: translateY(-2px);
+}
+
+select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Style the options within the dropdown */
+select option {
+  font-size: 16px;
+}

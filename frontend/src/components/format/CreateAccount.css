@@ -1,0 +1,46 @@
+.create-account-container {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .create-account-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .create-account-container .message {
+    margin-bottom: 10px;
+    color: #ff0000;
+  }
+  
+  .create-account-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .create-account-container input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .create-account-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #000000;
+    color: #FFFFFF;
+    transition: transform 200ms, background 200ms;
+    outline: none;
+  }
+  
+  .create-account-container button:hover {
+    transform: translateY(-2px);
+  }
+  

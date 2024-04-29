@@ -1,0 +1,62 @@
+body {
+  background-image: url('https://gd-hbimg.huaban.com/998a56b5efe8c5df7d04ae73c51bf8ddfb2755ee67e39-JQ5ILE_fw658webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.profile-container {
+    text-align: center;
+    margin-top: 100px;
+    
+  }
+
+
+  
+  .profile-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.5); 
+  }
+  
+  .profile-card p {
+    margin-bottom: 10px;
+  }
+  
+  .profile-card button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #000000;
+    color: #FFFFFF;
+    transition: transform 200ms, background 200ms;
+    outline: none;
+  }
+
+  .profile-card .delete-button {
+    margin-left:10px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #000000;
+    color: #FFFFFF;
+    transition: transform 200ms, background 200ms;
+    outline: none;
+  }
+  
+  .profile-card button:hover,
+  .profile-card .delete-button:hover {
+    transform: translateY(-2px);
+  }
+  
+  .log-out {
+    color: red;
+  }
