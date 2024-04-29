@@ -19,16 +19,22 @@ git clone git@github.com:linhlle/basic-task-management.git
 
 2. Install dependencies:
 - Navigate to the 'frontend' directory:
+```
 cd frontend/
 npm install
+```
 - Navigate to the 'backend' directory:
+ ```
 cd backend/
 npm install
+```
 
 ## Usage
 1. Run the application 
 You need to open two separate terminals, one for the frontend and one for the backend and run
+```
 npm start 
+```
 in both of them
 
 2. Open your web browser and navigate to [http://localhost:3000](http://localhost:3000) to view the app.
